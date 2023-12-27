@@ -1,8 +1,12 @@
 import React from 'react';
+import { NavbarSimple } from './component/page/navbar/Navbar';
+
 
 function App() {
   return (
-    <p>code</p>
+    <>
+    <NavbarSimple/>
+    </>
   );
 }
 
