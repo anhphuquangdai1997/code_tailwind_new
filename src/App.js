@@ -1,12 +1,14 @@
 import React from 'react';
-import { NavbarSimple } from './component/page/navbar/Navbar';
-
+import { ComplexNavbar } from './component/Navbar';
+import Page from './component/Page';
+import Menu from './component/Menu';
 
 function App() {
   return (
     <>
-    <NavbarSimple/>
-    hello
+      <ComplexNavbar />
+      <Page />
+      <Menu/>
     </>
   );
 }
