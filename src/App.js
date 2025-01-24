@@ -1,14 +1,19 @@
 import React from 'react';
-import { ComplexNavbar } from './component/Navbar';
-import Page from './component/Page';
-import Menu from './component/Menu';
+import Giaodich from './component/Giaodich';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './component/Home';
 
 function App() {
   return (
     <>
-      <ComplexNavbar />
-      <Page />
-      <Menu/>
+      
+      <Router>
+      
+      <Routes>
+      <Route path="/" element={<Home />} />
+        <Route path="/giaodich" element={<Giaodich />} />
+      </Routes>
+    </Router>
     </>
   );
 }
