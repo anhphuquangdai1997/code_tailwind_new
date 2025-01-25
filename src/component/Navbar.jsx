@@ -59,7 +59,9 @@ export function ComplexNavbar() {
                         </svg>
                     </IconButton>
                 </div>
+                <div>
                 <img src={menu9} alt="" />
+                </div>
             </Drawer>
         </Navbar>
     );
