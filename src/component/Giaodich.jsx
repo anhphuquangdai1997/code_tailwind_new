@@ -44,9 +44,9 @@ const Giaodich = () => {
                     <h3 className="text-lg font-bold">25/01/2025 - Thứ Bảy</h3>
                     <div className="flex justify-between items-center">
                         <div>
-                            <p className="text-green-600">+ 34,000,000 VND</p>
+                            <p className="text-green-600">+ 50,000,000 VND</p>
                             <p>TT LUONG THUONG QUANG DAI PHU</p>
-                            <p className="text-gray-500">SD: 34,320,210 VND</p>
+                            <p className="text-gray-500">SD: 53,320,210 VND</p>
                             <button className="text-blue-600 underline">Nhận tiền đến</button>
                         </div>
                     </div>
