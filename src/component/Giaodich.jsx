@@ -46,7 +46,7 @@ const Giaodich = () => {
                         <div>
                             <p className="text-green-600">+ 50,000,000 VND</p>
                             <p>TT LUONG THUONG QUANG DAI PHU</p>
-                            <p className="text-gray-500">SD: 53,320,210 VND</p>
+                            <p className="text-gray-500">SD: 96,320,210 VND</p>
                             <button className="text-blue-600 underline">Nhận tiền đến</button>
                         </div>
                     </div>
@@ -56,8 +56,14 @@ const Giaodich = () => {
                     <h3 className="text-lg font-bold">Tới: QUANG DAI PHU</h3>
                     <p className="text-red-600">- 12,000,000 VND</p>
                     <p>tpb transfer</p>
-                    <p className="text-gray-500">SD: 320,210 VND</p>
+                    <p className="text-gray-500">SD: 46,320,210 VND</p>
                     <button className="text-blue-600 underline">Gần đây</button>
+                </div>
+                <div className="bg-gray-100 p-4 rounded-lg mt-4">
+                    <h3 className="text-lg font-bold">26/11/2024 - Thứ Sáu</h3>
+                    <p className="text-green-600">+ 21,500,001 VND</p>
+                    <p>THANH TOAN LUONG THANG 11 QUANG DAI PHU</p>
+                    <p className="text-gray-500">SD: 21,900,001 VND</p>
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg mt-4">
@@ -71,6 +77,12 @@ const Giaodich = () => {
                     <p className="text-green-600">+ 300,000 VND</p>
                     <p>NOP TIEN BANG THE NOP TIEN TAI LIVEBANK DE CHUYEN KHOAN</p>
                     <p className="text-gray-500">SD: 600,001 VND</p>
+                </div>
+                <div className="bg-gray-100 p-4 rounded-lg mt-4">
+                    <h3 className="text-lg font-bold">26/10/2024 - Thứ Năm</h3>
+                    <p className="text-green-600">+ 21,500,001 VND</p>
+                    <p>THANH TOAN LUONG THANG 10 QUANG DAI PHU</p>
+                    <p className="text-gray-500">SD: 23,900,001 VND</p>
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg">
@@ -95,7 +107,7 @@ const Giaodich = () => {
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg mt-4">
-                    <h3 className="text-lg font-bold">25/12/2024 - Thứ Ba</h3>
+                    <h3 className="text-lg font-bold">12/12/2024 - Thứ Ba</h3>
                     <p className="text-green-600">+ 600,000 VND</p>
                     <p>NOP TIEN BANG THE NOP TIEN TAI LIVEBANK DE CHUYEN KHOAN</p>
                     <p className="text-gray-500">SD: 200,001 VND</p>
@@ -116,7 +128,7 @@ const Giaodich = () => {
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg mt-4">
-                    <h3 className="text-lg font-bold">12/12/2024 - Thứ Năm</h3>
+                    <h3 className="text-lg font-bold">03/12/2024 - Thứ Năm</h3>
                     <p className="text-green-600">+ 1,500,000 VND</p>
                     <p>NOP TIEN BANG THE NOP TIEN TAI LIVEBANK DE CHUYEN KHOAN</p>
                     <p className="text-gray-500">SD: 400,001 VND</p>
@@ -130,7 +142,7 @@ const Giaodich = () => {
 
 
                 <div className="bg-gray-100 p-4 rounded-lg mt-4">
-                    <h3 className="text-lg font-bold">25/12/2024 - Thứ Ba</h3>
+                    <h3 className="text-lg font-bold">25/09/2024 - Thứ Ba</h3>
                     <p className="text-green-600">+ 900,000 VND</p>
                     <p>NOP TIEN BANG THE NOP TIEN TAI LIVEBANK DE CHUYEN KHOAN</p>
                     <p className="text-gray-500">SD: 200,001 VND</p>
@@ -151,7 +163,7 @@ const Giaodich = () => {
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg mt-4">
-                    <h3 className="text-lg font-bold">12/12/2024 - Thứ Năm</h3>
+                    <h3 className="text-lg font-bold">12/07/2024 - Thứ Năm</h3>
                     <p className="text-green-600">+ 1,500,000 VND</p>
                     <p>NOP TIEN BANG THE NOP TIEN TAI LIVEBANK DE CHUYEN KHOAN</p>
                     <p className="text-gray-500">SD: 400,001 VND</p>
