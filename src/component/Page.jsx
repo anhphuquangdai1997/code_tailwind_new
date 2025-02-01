@@ -15,7 +15,7 @@ const Page = () => {
                 <div className="text-md font-semibold text-[#2A1F47]">7470 1011 998</div>
                 <div className='flex justify-center items-center gap-2'>
                     <div className="text-xl font-bold text-[#2A1F47] mt-1">
-                        {eye ? '34,320,210' : '*********'} VND
+                        {eye ? '96,320,210' : '*********'} VND
                     </div>
                     <svg
                         onClick={toggleEye}
@@ -44,14 +44,14 @@ const Page = () => {
                 </div>
 
                 <div className="flex justify-around mt-2">
-                    <button className="flex flex-col items-center text-[#2A1F47]">
+                    <Link to='/chuyentien' className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                             </svg>
                         </span>
                         <span className="text-sm">Chuyển tiền</span>
-                    </button>
+                    </Link>
                     <button className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
