@@ -15,7 +15,7 @@ const Page = () => {
                 <div className="text-md font-semibold text-[#2A1F47]">7470 1011 998</div>
                 <div className='flex justify-center items-center gap-2'>
                     <div className="text-xl font-bold text-[#2A1F47] mt-1">
-                        {eye ? '34,320,210' : '*********'} VND
+                        {eye ? '96,320,210' : '*********'} VND
                     </div>
                     <svg
                         onClick={toggleEye}
