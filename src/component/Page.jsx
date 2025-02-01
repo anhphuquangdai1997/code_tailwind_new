@@ -1,30 +1,12 @@
 import React, { useState } from 'react';
 import '../component/css.css';
 import { Link } from 'react-router-dom';
-import { QrReader } from 'react-qr-reader';
 
 const Page = () => {
     const [eye, setEye] = useState(false);
-    const [showQRScanner, setShowQRScanner] = useState(false); // State để hiển thị QR Scanner
-    const [scannedResult, setScannedResult] = useState(''); // State để lưu kết quả quét
 
     const toggleEye = () => {
         setEye(!eye);
-    };
-
-    // Xử lý khi quét thành công
-    const handleScan = (data) => {
-        if (data) {
-            setScannedResult(data); // Lưu kết quả quét
-            setShowQRScanner(false); // Ẩn QR Scanner sau khi quét thành công
-            alert(`Quét thành công: ${data}`); // Hiển thị thông báo
-        }
-    };
-
-    // Xử lý khi có lỗi
-    const handleError = (err) => {
-        console.error(err);
-        alert('Có lỗi xảy ra khi quét mã QR. Vui lòng thử lại.');
     };
 
     return (
@@ -33,7 +15,7 @@ const Page = () => {
                 <div className="text-md font-semibold text-[#2A1F47]">7470 1011 998</div>
                 <div className='flex justify-center items-center gap-2'>
                     <div className="text-xl font-bold text-[#2A1F47] mt-1">
-                        {eye ? '96,320,210' : '*********'} VND
+                        {eye ? '34,320,210' : '*********'} VND
                     </div>
                     <svg
                         onClick={toggleEye}
@@ -62,14 +44,14 @@ const Page = () => {
                 </div>
 
                 <div className="flex justify-around mt-2">
-                    <Link to='/chuyentien' className="flex flex-col items-center text-[#2A1F47]">
+                    <button className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                             </svg>
                         </span>
                         <span className="text-sm">Chuyển tiền</span>
-                    </Link>
+                    </button>
                     <button className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
@@ -78,7 +60,7 @@ const Page = () => {
                         </span>
                         <Link to='./giaodich' className="text-sm">Tra cứu GD</Link>
                     </button>
-                    <button className="flex flex-col items-center text-[#2A1F47]" onClick={() => setShowQRScanner(true)}>
+                    <button className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
@@ -88,31 +70,6 @@ const Page = () => {
                         <span className="text-sm">My QR</span>
                     </button>
                 </div>
-
-                {/* Hiển thị QR Scanner khi showQRScanner là true */}
-                {showQRScanner && (
-                    <div className="mt-4">
-                        <QrReader
-                            delay={300} // Thời gian chờ giữa các lần quét
-                            onError={handleError} // Xử lý lỗi
-                            onScan={handleScan} // Xử lý khi quét thành công
-                            style={{ width: '100%' }} // CSS cho QR Scanner
-                        />
-                        <button
-                            onClick={() => setShowQRScanner(false)}
-                            className="mt-2 bg-red-500 text-white px-4 py-2 rounded"
-                        >
-                            Đóng
-                        </button>
-                    </div>
-                )}
-
-                {/* Hiển thị kết quả quét */}
-                {scannedResult && (
-                    <div className="mt-4">
-                        <p className="text-green-600">Kết quả quét: {scannedResult}</p>
-                    </div>
-                )}
             </div>
         </div>
     );
