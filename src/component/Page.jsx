@@ -15,7 +15,7 @@ const Page = () => {
                 <div className="text-md font-semibold text-[#2A1F47]">7470 1011 998</div>
                 <div className='flex justify-center items-center gap-2'>
                     <div className="text-xl font-bold text-[#2A1F47] mt-1">
-                        {eye ? '96,320,210' : '*********'} VND
+                        {eye ? '84,320,210' : '*********'} VND
                     </div>
                     <svg
                         onClick={toggleEye}
@@ -50,7 +50,7 @@ const Page = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                             </svg>
                         </span>
-                        <span className="text-sm">Chuyển tiền</span>
+                        <Link to="/chuyentien" className="text-sm">Chuyển tiền</Link>
                     </button>
                     <button className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
@@ -60,7 +60,7 @@ const Page = () => {
                         </span>
                         <Link to='./giaodich' className="text-sm">Tra cứu GD</Link>
                     </button>
-                    <button className="flex flex-col items-center text-[#2A1F47]">
+                    <Link to="/myqr" className="flex flex-col items-center text-[#2A1F47]">
                         <span className="text-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
@@ -68,7 +68,7 @@ const Page = () => {
                             </svg>
                         </span>
                         <span className="text-sm">My QR</span>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

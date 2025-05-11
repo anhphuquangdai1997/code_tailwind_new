@@ -41,6 +41,60 @@ const Giaodich = () => {
                 <h2 className="text-gray-600 mb-2">99 giao dịch</h2>
 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">26/04/2025 - Thứ Bảy</h3>
+                    <div className="flex justify-between items-center">
+                        <div>
+                            <p className="text-green-600">+ 27,800,000 VND</p>
+                            <p>TT LUONG THUONG QUANG DAI PHU</p>
+                            <p className="text-gray-500">SD: 84,320,210 VND</p>
+                            <button className="text-blue-600 underline">Nhận tiền đến</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">13/04/2025 - Thứ Năm</h3>
+                    <h3 className="text-md">Tới: QUANG DAI PHU</h3>
+                    <p className="text-red-600">- 7,000,000 VND</p>
+                    <p>tpb transfer</p>
+                    <p className="text-gray-500">SD: 46,320,210 VND</p>
+                    <button className="text-blue-600 underline">Gần đây</button>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">26/03/2025 - Thứ Tư</h3>
+                    <div className="flex justify-between items-center">
+                        <div>
+                            <p className="text-green-600">+ 27,800,000 VND</p>
+                            <p>TT LUONG THUONG QUANG DAI PHU</p>
+                            <p className="text-gray-500">SD: 52,320,210 VND</p>
+                            <button className="text-blue-600 underline">Nhận tiền đến</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">6/03/2025 - Thứ Tư</h3>
+                    <h3 className="text-md">Tới: QUANG DAI PHU</h3>
+                    <p className="text-red-600">- 15,000,000 VND</p>
+                    <p>tpb transfer</p>
+                    <p className="text-gray-500">SD: 37,320,210 VND</p>
+                    <button className="text-blue-600 underline">Gần đây</button>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">26/02/2025 - Thứ Hai</h3>
+                    <div className="flex justify-between items-center">
+                        <div>
+                            <p className="text-green-600">+ 27,800,000 VND</p>
+                            <p>TT LUONG THUONG QUANG DAI PHU</p>
+                            <p className="text-gray-500">SD: 36,320,210 VND</p>
+                            <button className="text-blue-600 underline">Nhận tiền đến</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
                     <h3 className="text-lg font-bold">25/01/2025 - Thứ Bảy</h3>
                     <div className="flex justify-between items-center">
                         <div>
