@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Giaodich = () => {
     return (
         <div>
-            <header>
-                <div className=" bg-red-400 p-4 text-white flex justify-between">
+            <header className='fixed top-0 left-0 right-0 z-50'>
+                <div className=" bg-red-400 p-4  text-white flex justify-between">
                     <div className="flex items-center">
                         <Link to='/' className="mr-2 text-xl">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -22,7 +22,7 @@ const Giaodich = () => {
                 </div>
             </header>
 
-            <div className='p-2'>
+            <div className='p-3 mt-[60px] bg-gray-50 h-screen overflow-y-auto'>
                 <div className="flex items-center mb-4">
                     <input type="text" placeholder="Tìm kiếm" className="border p-2 rounded w-full" />
                 </div>
@@ -39,6 +39,46 @@ const Giaodich = () => {
                 </div>
 
                 <h2 className="text-gray-600 mb-2">99 giao dịch</h2>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">27/05/2025 - Thứ Ba</h3>
+                    <h3 className="text-md">Tới: QUANG DAI PHU</h3>
+                    <p className="text-red-600">- 12,000,000 VND</p>
+                    <p>tpb transfer</p>
+                    <p className="text-gray-500">SD: 100,320,210 VND</p>
+                    <button className="text-blue-600 underline">Gần đây</button>
+                </div>
+
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">26/05/2025 - Thứ hai</h3>
+                    <div className="flex justify-between items-center">
+                        <div>
+                            <p className="text-green-600">+ 27,800,000 VND</p>
+                            <p>TT LUONG THUONG QUANG DAI PHU</p>
+                            <p className="text-gray-500">SD: 112,320,210 VND</p>
+                            <button className="text-blue-600 underline">Nhận tiền đến</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">24/05/2025 - Thứ Bảy</h3>
+                    <div className="flex justify-between items-center">
+                        <div>
+                            <p className="text-green-600">+ 9,000,000 VND</p>
+                            <p>Nguyen Phuong Nhan tra tien muon hom thu Bay </p>
+                            <p className="text-gray-500">SD: 89,320,210 VND</p>
+                            <button className="text-blue-600 underline">Nhận tiền đến</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-gray-100 p-4 rounded-lg mb-4">
+                    <h3 className="text-lg font-bold">01/05/2025 - Thứ Năm</h3>
+                    <h3 className="text-md">Tới: QUANG DAI PHU</h3>
+                    <p className="text-red-600">- 8,000,000 VND</p>
+                    <p>tpb transfer</p>
+                    <p className="text-gray-500">SD: 76,320,210 VND</p>
+                    <button className="text-blue-600 underline">Gần đây</button>
+                </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                     <h3 className="text-lg font-bold">26/04/2025 - Thứ Bảy</h3>

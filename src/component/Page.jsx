@@ -10,12 +10,12 @@ const Page = () => {
     };
 
     return (
-        <div className="flex items-center justify-center bg-gradient-to-r px-2 py-4 bg_hd">
+        <div className="flex mt-[50px] items-center justify-center bg-gradient-to-r px-2 py-4 bg_hd">
             <div className="bg-white rounded-lg shadow-lg px-2 py-3 w-80 text-center">
                 <div className="text-md font-semibold text-[#2A1F47]">7470 1011 998</div>
                 <div className='flex justify-center items-center gap-2'>
                     <div className="text-xl font-bold text-[#2A1F47] mt-1">
-                        {eye ? '84,320,210' : '*********'} VND
+                        {eye ? '100,320,210' : '*********'} VND
                     </div>
                     <svg
                         onClick={toggleEye}

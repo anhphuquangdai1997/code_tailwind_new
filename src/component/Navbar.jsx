@@ -18,8 +18,8 @@ export function ComplexNavbar() {
     const closeDrawer = () => setOpen(false);
 
     return (
-        <Navbar className="max-w-screen-xl p-2 h-[60px] relative ">
-            <div className="relative mx-auto flex items-center justify-between text-blue-gray-900 h">
+        <Navbar className="max-w-screen-xl p-2 h-[60px] bg-white shadow-md fixed top-0 z-50">
+            <div className="relative mx-auto flex items-center justify-between text-blue-gray-900">
                 <div className="flex items-center gap-4">
                     <svg onClick={openDrawer} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
