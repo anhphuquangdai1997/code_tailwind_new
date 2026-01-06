@@ -6,7 +6,7 @@ const MyQR = () => {
     // In a real application, this would come from your user's account data
     const accountInfo = {
         accountNumber: '7470 1011 998',
-        accountName: 'QUANG DAI PHU',
+        accountName: 'QUANG HUU HIEN',
         bankName: 'HDBank'
     };
 

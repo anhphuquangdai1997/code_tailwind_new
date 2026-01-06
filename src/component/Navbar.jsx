@@ -34,7 +34,7 @@ export function ComplexNavbar() {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
-                    <Avatar src="https://res.cloudinary.com/daiphu1997/image/upload/v1661349488/dxrrlzfebhgbx1grtndj.jpg" alt="avatar" className="w-[35px] h-[35px]" />
+                    <Avatar src="https://s120-25-ava-talk.zadn.vn/30/a87da17715b5ff44b326f33ecbdfa599.jpg?key=CrjjRqhfGNZuUpq7cSBq4w&time=1772781097" alt="avatar" className="w-[35px] h-[35px]" />
                 </div>
             </div>
             <Drawer open={open} onClose={closeDrawer} className="p-4 mt-[57px]">
